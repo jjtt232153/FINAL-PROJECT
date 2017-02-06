@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+/************UNIVERSALS**************/
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*********HEADER**********/
+#logo-img {
+  width: 105px;
+  width: 95px;
+  margin-top:15px;
+}
+
+#logo-img~span {
+  display: inline-block;
+  font-family: "Satisfy", cursive;
+  color: #f2777c;
+  font-size: 30px;
+  padding-top: 19px;
+
+}
+.nav>li>a {
+  font-size: 19px;
+}
+
+.container-fluid {
+  padding-left: 105px;
+  padding-right: 105px;
+}
+
+/*****call to action section******/
+
+.jumbotron {
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  height: 450px;
+  background-position: center;
+}
+.jumbotron>p {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 35px;
+
+}
+
+
+/******PRODUCTS SECTIOKN********/
+
+.btn-default {
+  background-color: #5bc0de;
+  color: #fff;
+  border: none;
+}
+
+.thumbnail {
+  background-color: #edf1f4;
+  padding:16px;
+}
+
+
+
+/*SERVICES SECTION*/
+
+.col-md-3 {
+  text-align: center;
+  padding: 30px
+}
+
+.row> h6 {
+  color: blue;
+}
+
+
+/*Footer begins*/
+footer {
+  background-color: black;
+  height: 150px;
+}
+.container> img {
+  height: 80px;
+  width: 80px;
+}
